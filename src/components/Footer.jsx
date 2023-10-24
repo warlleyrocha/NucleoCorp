@@ -14,9 +14,9 @@ export const Footer = () => {
 
         <div className='text-center py-3'>
             <p className='pb-[12px]'>&copy; Núcleo Corp, 2023. All right reserved.</p>
-            <a href="">Privacy Policy</a>
+            <a href="/">Privacy Policy</a>
         </div>
-        
+
     </div>
   )
 }
