@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/NucleoCorp/static/css/main.45b7ed8f.css",
+    "main.js": "/NucleoCorp/static/js/main.e2242deb.js",
+    "static/media/snk.jpg": "/NucleoCorp/static/media/snk.f1cf5be010610099469f.jpg",
+    "static/media/bg.jpg": "/NucleoCorp/static/media/bg.8d35d9345bd70f48d487.jpg",
+    "static/media/shants.jpg": "/NucleoCorp/static/media/shants.1614cbf6d5560dc8fce3.jpg",
+    "static/media/cain.jpg": "/NucleoCorp/static/media/cain.aa8fa90923dc74149816.jpg",
+    "static/media/jao.jpg": "/NucleoCorp/static/media/jao.122d4845d076554725ac.jpg",
+    "static/media/celo.jpg": "/NucleoCorp/static/media/celo.c852dfa386128fe5c5cb.jpg",
+    "index.html": "/NucleoCorp/index.html",
+    "main.45b7ed8f.css.map": "/NucleoCorp/static/css/main.45b7ed8f.css.map",
+    "main.e2242deb.js.map": "/NucleoCorp/static/js/main.e2242deb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b7ed8f.css",
+    "static/js/main.e2242deb.js"
+  ]
+}
