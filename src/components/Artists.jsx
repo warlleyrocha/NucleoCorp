@@ -24,10 +24,10 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Cain MSV</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/michel_pigment/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href='https://twitter.com/cain_msv' target='_blank' rel='noopener'><FontAwesomeIcon icon={faXTwitter} /></a>
-                        <a href='https://www.youtube.com/@caiotinininho' target='_blank' rel='noopener'><FontAwesomeIcon icon={faYoutube} /></a>
-                        <a href='https://soundcloud.com/caio-favoretti' target='_blank' rel='noopener'><FontAwesomeIcon icon={faSoundcloud} /></a>
+                        <a href='https://www.instagram.com/michel_pigment/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href='https://twitter.com/cain_msv' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
+                        <a href='https://www.youtube.com/@caiotinininho' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+                        <a href='https://soundcloud.com/caio-favoretti' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faSoundcloud} /></a>
                     </div>
                 </div>
             </div>
@@ -38,10 +38,10 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>akaBaggio</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/https.warlley/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href='https://twitter.com/whoisbinn' target='_blank' rel='noopener'><FontAwesomeIcon icon={faXTwitter} /></a>
-                        <a href='https://www.youtube.com/channel/UCopd7gWttKlUCBASpSbDh7Q' target='_blank' rel='noopener'><FontAwesomeIcon icon={faYoutube} /></a>
-                        <a href='https://soundcloud.com/aka_baggio' target='_blank' rel='noopener'><FontAwesomeIcon icon={faSoundcloud} /></a>
+                        <a href='https://www.instagram.com/https.warlley/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href='https://twitter.com/whoisbinn' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
+                        <a href='https://www.youtube.com/channel/UCopd7gWttKlUCBASpSbDh7Q' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faYoutube} /></a>
+                        <a href='https://soundcloud.com/aka_baggio' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faSoundcloud} /></a>
                     </div>
                 </div>
             </div>
@@ -52,9 +52,9 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Marcelo Filho</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/marcelofilhc/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href='https://twitter.com/Marcelim_msv' target='_blank' rel='noopener'><FontAwesomeIcon icon={faXTwitter} /></a>
-                        <a href='https://open.spotify.com/intl-pt/artist/6SbqcONTwT2QbtGsskztm9?si=SzCGB4F8RGK5XXSfYDBUrw' target='_blank' rel='noopener'><FontAwesomeIcon icon={faSpotify} /></a>
+                        <a href='https://www.instagram.com/marcelofilhc/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href='https://twitter.com/Marcelim_msv' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
+                        <a href='https://open.spotify.com/intl-pt/artist/6SbqcONTwT2QbtGsskztm9?si=SzCGB4F8RGK5XXSfYDBUrw' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faSpotify} /></a>
                     </div>
                 </div>
             </div>
@@ -68,9 +68,9 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>SNK</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/snk.html_/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href='https://twitter.com/_SnakeSk1n' target='_blank' rel='noopener'><FontAwesomeIcon icon={faXTwitter} /></a>
-                        <a href='https://soundcloud.com/snakesk1n' target='_blank' rel='noopener'><FontAwesomeIcon icon={faSoundcloud} /></a>
+                        <a href='https://www.instagram.com/snk.html_/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href='https://twitter.com/_SnakeSk1n' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
+                        <a href='https://soundcloud.com/snakesk1n' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faSoundcloud} /></a>
                     </div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Shants</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/ynohtnadc/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>                        
+                        <a href='https://www.instagram.com/ynohtnadc/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>                        
                     </div>
                 </div>
             </div>
@@ -92,8 +92,8 @@ export const Artists = () => {
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>JV</h1>
                     
                     <div className='flex justify-center text-[15px] gap-4'>
-                        <a href='https://www.instagram.com/jv.usbert/' target='_blank' rel='noopener'><FontAwesomeIcon icon={faInstagram} /></a>
-                        <a href='https://twitter.com/_Penitente' target='_blank' rel='noopener'><FontAwesomeIcon icon={faXTwitter} /></a>
+                        <a href='https://www.instagram.com/jv.usbert/' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a href='https://twitter.com/_Penitente' target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faXTwitter} /></a>
                     </div>
                 </div>
             </div>

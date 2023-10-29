@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className='text-white'>
         <div className='flex justify-center gap-8 pt-[100px] text-[18px]'>
-            <a href='https://www.instagram.com/nucleocorp/' target='_blank'><FontAwesomeIcon icon={faInstagram} /></a>
+            <a href='https://www.instagram.com/nucleocorp/' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faInstagram} /></a>
             <a href='/'><FontAwesomeIcon icon={faXTwitter} /></a>
             <a href='/'><FontAwesomeIcon icon={faYoutube} /></a>
             <a href='/'><FontAwesomeIcon icon={faSpotify} /></a>
