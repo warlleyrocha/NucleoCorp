@@ -12,7 +12,7 @@ export const Artists = () => {
   return (
     <div className='w-full min-h-screen'>
         <div className='md:pt-[130px] pt-[30px] md:pb-[68px] pb-[45px] text-center'>
-            <h1 className='uppercase text-white font-semibold title'>Artists</h1>
+            <h1 className='uppercase text-white font-semibold text-[90px] md:text-[156px]'>Artists</h1>
         </div>
 
         <div className='flex flex-wrap justify-center gap-[30px] text-white text-center'>
