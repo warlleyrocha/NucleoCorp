@@ -18,7 +18,7 @@ export const Artists = () => {
         <div className='flex flex-wrap justify-center gap-[30px] text-white text-center'>
 
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={cain} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' src={cain} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Cain MSV</h1>
@@ -32,7 +32,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={bg} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' src={bg} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>akaBaggio</h1>
@@ -46,7 +46,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={celo} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' src={celo} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Marcelo Filho</h1>
@@ -62,7 +62,7 @@ export const Artists = () => {
             <div className='break'></div>
 
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={snk} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' src={snk} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>SNK</h1>
@@ -75,7 +75,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={shants} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' src={shants} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Shants</h1>
