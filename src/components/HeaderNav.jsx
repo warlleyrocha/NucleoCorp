@@ -12,7 +12,7 @@ export const HeaderNav = () => {
     let [open,setOpen] = useState(false);
 
     return (
-        <div className="shadow uppercase md w-full fixed top-0 left-0 bg-black bg-opacity-90 ">
+        <div className="shadow uppercase md w-full top-0 left-0 bg-black bg-opacity-90 ">
             <div className="md:flex items-center justify-around py-[22px] md:py-5 text-white md:px-[155px] px-7">   
                 <div className="font-bold text-2xl cursor-pointer flex items-center">
                     <span className="text-3xl text-[#7C0F82] px-4">
@@ -36,7 +36,7 @@ export const HeaderNav = () => {
                 </ul>
 
                 <Button>
-                    Get Started
+                    Contact
                 </Button>
             </div>
         </div>
