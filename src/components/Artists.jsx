@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import cain from '../assets/cain.jpg';
 import bg from '../assets/bg.jpg';
-import celo from '../assets/celo.jpg';
+import celo from '../assets/celo2.jpg';
 import jao from '../assets/jao.jpg';
 import shants from '../assets/shants.jpg';
 import snk from '../assets/snk.jpg';
@@ -9,16 +11,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagram, faXTwitter, faYoutube, faSpotify, faSoundcloud } from '@fortawesome/free-brands-svg-icons'
 
 export const Artists = () => {
+
+    useEffect(() => { 
+        AOS.init()
+    }, []
+    )
+
   return (
+
     <div className='w-full min-h-screen'>
         <div className='md:pt-[130px] pt-[30px] md:pb-[68px] pb-[45px] text-center'>
-            <h1 className='uppercase text-white font-semibold text-[90px] md:text-[156px]'>Artists</h1>
+            <h1 className='uppercase text-white font-semibold text-[90px] md:text-[156px]' id='artist'>Artists</h1>
         </div>
 
         <div className='flex flex-wrap justify-center gap-[30px] text-white text-center'>
 
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px] object-cover' src={cain} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' data-aos="zoom-in" data-aos-duration="1450"  src={cain} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Cain MSV</h1>
@@ -32,7 +41,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px] object-cover' src={bg} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' data-aos="zoom-in" data-aos-duration="1450" src={bg} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>akaBaggio</h1>
@@ -46,7 +55,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px] object-cover' src={celo} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' data-aos="zoom-in" data-aos-duration="1450" src={celo} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Marcelo Filho</h1>
@@ -62,7 +71,7 @@ export const Artists = () => {
             <div className='break'></div>
 
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px] object-cover' src={snk} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' data-aos="zoom-in" data-aos-duration="1450" src={snk} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>SNK</h1>
@@ -75,7 +84,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px] object-cover' src={shants} alt="alt"/>
+                <img className='w-[271px] h-[271px] object-cover' data-aos="zoom-in" data-aos-duration="1450" src={shants} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>Shants</h1>
@@ -86,7 +95,7 @@ export const Artists = () => {
                 </div>
             </div>
             <div className='flex flex-col'>
-                <img className='w-[271px] h-[271px]' src={jao} alt="alt"/>
+                <img className='w-[271px] h-[271px]' data-aos="zoom-in" data-aos-duration="1450" src={jao} alt="alt"/>
 
                 <div>
                     <h1 className='pt-[20px] pb-[5px] artistTitle font-semibold'>JV</h1>

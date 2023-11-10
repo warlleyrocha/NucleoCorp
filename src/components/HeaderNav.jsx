@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 export const HeaderNav = () => {
     let Links =[
-        {name: "Artists",link:"/"},
+        {name: "Artists",link:"#artist"},
         {name: "Videos",link:"/"},
         {name: "Music",link:"/"},
         {name: "About", link:"/"},
