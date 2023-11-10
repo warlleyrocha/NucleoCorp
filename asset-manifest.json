@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/NucleoCorp/static/css/main.349ca1f1.css",
-    "main.js": "/NucleoCorp/static/js/main.4709ab64.js",
+    "main.css": "/NucleoCorp/static/css/main.563cc314.css",
+    "main.js": "/NucleoCorp/static/js/main.d3baadc4.js",
+    "static/media/celo2.jpg": "/NucleoCorp/static/media/celo2.c2acc040861cc85f4635.jpg",
     "static/media/snk.jpg": "/NucleoCorp/static/media/snk.dec4de63156e12c318eb.jpg",
     "static/media/bg.jpg": "/NucleoCorp/static/media/bg.8d35d9345bd70f48d487.jpg",
     "static/media/shants.jpg": "/NucleoCorp/static/media/shants.1614cbf6d5560dc8fce3.jpg",
     "static/media/cain.jpg": "/NucleoCorp/static/media/cain.aa8fa90923dc74149816.jpg",
     "static/media/jao.jpg": "/NucleoCorp/static/media/jao.122d4845d076554725ac.jpg",
-    "static/media/celo.jpg": "/NucleoCorp/static/media/celo.c852dfa386128fe5c5cb.jpg",
     "index.html": "/NucleoCorp/index.html",
-    "main.349ca1f1.css.map": "/NucleoCorp/static/css/main.349ca1f1.css.map",
-    "main.4709ab64.js.map": "/NucleoCorp/static/js/main.4709ab64.js.map"
+    "main.563cc314.css.map": "/NucleoCorp/static/css/main.563cc314.css.map",
+    "main.d3baadc4.js.map": "/NucleoCorp/static/js/main.d3baadc4.js.map"
   },
   "entrypoints": [
-    "static/css/main.349ca1f1.css",
-    "static/js/main.4709ab64.js"
+    "static/css/main.563cc314.css",
+    "static/js/main.d3baadc4.js"
   ]
 }
